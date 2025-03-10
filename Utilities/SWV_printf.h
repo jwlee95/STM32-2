@@ -1,6 +1,6 @@
 /*
  * SWV_printf.h
- *
+ *	SWV(Serial Wire Viewer) 를 이용한 printf debugging
  *  Created on: Jan 22, 2025
  *      Author: JeonghWhanPro
  */
