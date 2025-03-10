@@ -11,13 +11,14 @@
 #include "main.h"
 #include <stdio.h>
 
+int _write(int file, char *ptr, int len){
+  (void)file;
+  int DataIdx;
 
-int _write(int file, char *ptr, int len) {
-int DataIdx;
-	for (DataIdx = 0; DataIdx < len; DataIdx++){
-		ITM_SendChar( *ptr++ );
-	}
-	return len;
+  for (DataIdx = 0; DataIdx < len; DataIdx++) {
+    ITM_SendChar(*ptr++);
+  }
+  return len;
 }
 
 
